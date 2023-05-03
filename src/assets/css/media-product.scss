@@ -1,0 +1,288 @@
+@media(max-width: 1280px) {
+    .hero__swiper {
+        &__img1 {
+            background-image: url(../assets/img/swiper1-1024.jpg);
+        }
+
+        &__img2 {
+            background-image: url(../assets/img/swiper2-1024.jpg);
+        }
+
+        &__img3 {
+            background-image: url(../assets/img/swiper3-1024.jpg);
+        }
+    }
+
+    .ocsford {
+        background-image: url(../assets/img/ocsford-1024.jpg);
+    }
+
+    .feedback__right {
+        background-image: url(../assets/img/comfort-1024.png);
+        background-size: auto;
+    }
+
+    .product {
+        margin-bottom: 66px;
+        grid-template-columns: 514px 1fr;
+    }
+
+    .product__block-right__desc {
+        margin-bottom: 69px;
+    }
+
+    .product-right__specifications {
+        width: 47%;
+    }
+
+    .product-right__data {
+        width: 54%;
+    }
+
+    .product__block-left__p {
+        margin-bottom: 85px;
+    }
+
+    .product__block-left__mini {
+        padding: 10px;
+        overflow: hidden;
+    }
+
+    #myImgModal {
+        width: 821px !important;
+    }
+
+    .modal-img {
+        padding: 20px 67px;
+        width: 952px;
+    }
+
+    .modal-prev {
+        left: var(--swiper-navigation-sides-offset, 10px) !important;
+    }
+
+    .modal-prev,
+    .modal-next {
+        top: auto !important;
+        bottom: 67px !important;
+    }
+}
+
+@media(max-width: 952px) {
+    .hero__swiper {
+        &__img1 {
+            background-image: url(../assets/img/swiper1-768.jpg);
+        }
+
+        &__img2 {
+            background-image: url(../assets/img/swiper2-768.jpg);
+        }
+
+        &__img3 {
+            background-image: url(../assets/img/swiper3-768.jpg);
+        }
+    }
+
+    .ocsford {
+        background-image: url(../assets/img/ocsford-768.jpg);
+    }
+
+    .feedback__right {
+        background-image: url(../assets/img/comfort-768.png);
+        background-size: cover;
+    }
+
+    .product__block-left__img-big {
+        margin-bottom: 27px;
+    }
+
+    .product__block-left__mini {
+        margin-bottom: 35px;
+        padding: 25px 32px;
+        width: 187px;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .product__block-left__p {
+        margin-bottom: 30px;
+        width: 514px;
+    }
+
+    .product {
+        position: relative;
+        margin-bottom: 30px;
+        grid-template-columns: 1fr;
+        gap: 27px;
+    }
+
+    .product__buy {
+        position: absolute;
+        top: 314px;
+        left: 220px;
+    }
+
+    .product-right__specifications {
+        width: 102%;
+    }
+
+    #myImgModal {
+        width: 583px !important;
+    }
+
+    .modal-img {
+        padding: 20px 79px;
+        width: 624px;
+    }
+}
+
+@media(max-width: 624px) {
+    .ocsford {
+        background-image: url(../assets/img/ocsford-320.jpg);
+    }
+
+    .product {
+        margin-bottom: 65px;
+        grid-template-columns: 296px;
+        gap: 27px;
+    }
+
+    .product__block-left__p {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .product__block-left__mini {
+        margin-bottom: 278px;
+        padding: 10px;
+        width: 100%;
+        flex-direction: row;
+        gap: 38px;
+    }
+
+    .product__block-left__img-big {
+        margin-bottom: 12px;
+    }
+
+    .product__buy {
+        top: 214px;
+        left: 0;
+    }
+
+    .product__block-right {
+
+        &__rating {
+            margin-bottom: 2px;
+        }
+
+        &__title {
+            margin-bottom: 8px;
+            font-size: 16px;
+        }
+
+        &__text {
+            margin-bottom: 15px;
+        }
+
+        &__price {
+            margin-bottom: 16px;
+            font-size: 24px;
+        }
+
+        &__btn {
+            padding: 19px 64px;
+        }
+
+        &__desc {
+            padding-left: 63px;
+        }
+    }
+
+    .product-right {
+        &__list {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        &__item {
+            flex-direction: column;
+        }
+
+        &__specifications {
+            font-size: 10px;
+            line-height: 14px;
+        }
+
+        &__data {
+            width: 100%;
+        }
+
+    }
+
+    .similar__card {
+        margin-right: 16px !important;
+        padding: 46px 16px 13px 16px;
+        width: 108px !important;
+        height: 214px !important;
+    }
+
+    .similar {
+        margin-bottom: 123px;
+    }
+
+    .similar-prev,
+    .similar-next {
+        top: var(--swiper-navigation-top-offset, 113%) !important;
+    }
+
+    #myImgModal {
+        width: 264px !important;
+    }
+
+    .modal-img {
+        padding: 16px 62px;
+        width: 296px;
+    }
+
+    .modal-img1 {
+        width: 172px !important;
+    }
+
+    .modal-img2 {
+        width: 90px !important;
+    }
+
+    .modal-img3 {
+        width: 150px !important;
+    }
+
+    .modal-img4 {
+        width: 150px !important;
+    }
+
+    .modal-next {
+        right: 0 !important;
+    }
+
+    .modal-body-buy {
+        padding: 30px 16px;
+    }
+
+    .modal-form {
+        width: 264px;
+    }
+
+    .modal-buy__title {
+        font-size: 24px;
+    }
+
+    .modal-form__text {
+        width: 260px;
+    }
+
+    .feedback__left__form__bottom label {
+        font-size: 11px;
+    }
+}

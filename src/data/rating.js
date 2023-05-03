@@ -1,0 +1,58 @@
+export default [
+  {
+    id: 1,
+    rating: '5,0',
+    title: 'Диван кожаный “R-94”',
+    price: '94 990',
+    image: require('@/assets/img/rate1.png'),
+  },
+  {
+    id: 2,
+    rating: '4,9',
+    title: 'Диван апартековый “T-75”',
+    price: '69 990',
+    image: require('@/assets/img/rate2.png'),
+  },
+  {
+    id: 3,
+    rating: '4.8',
+    title: 'Диван тканевый “D-31”',
+    price: '28 490',
+    image: require('@/assets/img/rate3.png'),
+  },
+  {
+    id: 4,
+    rating: '4.8',
+    title: 'Диван велюровый “Y-68”',
+    price: '22 990',
+    image: require('@/assets/img/rate4.png'),
+  },
+  {
+    id: 5,
+    rating: '4.8',
+    title: 'Диван из шинила “W-95”',
+    price: '22 990',
+    image: require('@/assets/img/rate5.png'),
+  },
+  {
+    id: 6,
+    rating: '4.8',
+    title: 'Диван флоковый “G-41”',
+    price: '17 990',
+    image: require('@/assets/img/rate6.png'),
+  },
+  {
+    id: 7,
+    rating: '4.8',
+    title: 'Диван шиниловый “V-43”',
+    price: '19 990',
+    image: require('@/assets/img/rate7.png'),
+  },
+  {
+    id: 8,
+    rating: '4.7',
+    title: 'Диван велюровый “S-99”',
+    price: '19 990',
+    image: require('@/assets/img/rate8.png'),
+  },
+];
